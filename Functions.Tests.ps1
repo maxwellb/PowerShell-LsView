@@ -1,5 +1,6 @@
 #Requires -Module @{ ModuleName = 'Pester'; ModuleVersion = '4.0' }
 
+. ${PSScriptRoot}\Functions.ps1
 
 Describe "RangeStart/RangeEnd - Partition 34 into 6" {
     $N = 34
